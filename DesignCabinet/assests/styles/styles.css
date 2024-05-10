@@ -1,0 +1,210 @@
+.navbar-nav .nav-link.active {
+    color:black
+}
+
+
+.content-container{
+    height: 100vh;
+    overflow-y: show;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.full-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.div-relative{
+    position: relative;
+
+}
+
+.bottom-link{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 10px;
+}
+
+.text-right{
+    text-align: end;
+}
+
+h1 {
+    text-align: center;
+  }
+.content-container {
+    margin: 50px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  input[type="text"] {
+    width: 300px; /* adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+ 
+  .margin{: 0;
+    padding: 0;
+    height: 100%;}
+
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.large-container {
+  max-width: 800px; /* Adjust as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: center;}
+
+  Css
+
+
+.custom-heading {
+    margin-left: 10px;
+    font-family:Condensed, Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.custom-form {
+    border: 1px solid #ccc; /* Stel een rand in rondom het formulier */
+    padding: 20px; /* Voeg wat ruimte toe binnen het kader */
+    font-family: Condensed, Arial, Helvetica, sans-serif;  /* Stel het gewenste lettertype in voor het formulier */
+    font-weight: bold;
+}
+
+
+.custom-form input[type="text"],
+.custom-form input[type="email"],
+.custom-form input[type="password"],
+.custom-form input[type="confirmPassword"],
+.custom-form input[type="name"],
+.custom-form input[type="surname"],
+.custom-form input[type="dateOfBirth"],
+.custom-form input[type="gender"],
+
+.custom-form textarea {
+    width: 30%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #000000; 
+    border-radius: 0px; 
+}
+
+
+select {
+    width: 30%; 
+    padding: 10px; 
+    border: 1px solid #000000; 
+    border-radius: 0px; /
+    font-family: Condensed, Arial, Helvetica, sans-serif;  
+}
+
+
+.custom-form {
+    border: 7px solid #ffffff; 
+    padding: 20px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+
+
+select option {
+    padding: 10px; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+label {
+    font-weight:lighter;
+}
+
+button { 
+    background-color: #ffffff;
+    color: #000;
+    width: 15%; 
+    padding: 10px; 
+    border: 3px solid #000000; 
+    border-radius: 0px; /
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+
+button:hover {
+background-color: #000000;
+color: #ffffff
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ensure body takes up at least the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1; /* Take up remaining space */
+    padding:10px;
+  }
+  
+  .footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+    font-size: 12px;
+    padding: 2%;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    
+
+    
+  }
+  
+  .hover-text:hover {
+    color: #838383; /* Change to desired color */
+  }
+  
+  .image{
+    width: 225px;
+    height: 50px;
+  }
+
+  .align-right {
+    float: right;
+  }
+  
