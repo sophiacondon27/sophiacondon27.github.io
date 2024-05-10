@@ -14,121 +14,101 @@
 
 
 </head>
+
+
 <body>
 
-    <body class="content-container">  
+    
+
+    
+
+    <body>  
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="height: 200px;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
               <img src="assets/images/Webdesign_Logo-03.png" alt="Your Logo" class="img-fluid col-md-6" style="max-height: 400px; max-width: 400px;">
             </a>
       
             <ul class="nav nav-pills">
-              <li class="nav-item"><a href="#" class="nav-link text-black">Gallery</a></li>
-              <li class="nav-item"><a href="#" class="nav-link text-black">About</a></li>
+              <li class="nav-item"><a href="Index.html" class="nav-link text-black">Gallery</a></li>
+              <li class="nav-item"><a href="Contact.html" class="nav-link text-black">About</a></li>
             </ul>
         </header>
 
-        <main>
-            <body>
-                <h1>Subscribe</h1>
+        <main class="content-container"> 
             
-               
-               <!--
-                A form is used to give the user the possibility 
-                to submit some information.
             
-                A form requires 2 attributes:
-                action: The URL it should send the information to 
-                mathod: The type of process it should use (post/get)
-               -->
-                <form action="sophiacondon27@gmail.com" method="post"
-                enctype="text/plain"> 
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name">
-            
-            <!-- BR starts a new line-->
-            <!-- An imput can take many different forms.
-            They all require "name" to associate values-->
-            <br>
-            
-            <label for="surname">Surame:</label>
-            <input type="text" name="surname" id="surname">
-            
-            <br>
-            
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
-            
-            <br>
-            
-            <!-- Setting the type to "password" hides the password in browser-->
-            
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password">
-            
-            <br>
-            <!-- Drop down list can be added using the select tag-->
-            <label for="">Birthday:</label>
-            <br>
-            <br>
-
-            <select name="Month" id="Month">
-                <!-- Each optionn in the tag requires a value-->
-                <option value="January">January</option>
-                <option value="Febuary">Febuary</option>
-                <option value="March">March</option>
-                <option value="April">April</option>
-                <option value="May">May</option>
-                <option value="June">June</option>
-                <option value="July">July</option>
-                <option value="August">August</option>
-                <option value="September">September</option>
-                <option value="October">October</option>
-                <option value="November">November</option>
-                <option value="December">December</option>
-            </select>
-            <br>
-            <br>
-            <br>
-            <br>
-            
+            <h1 class="centured">Subscribe</h1>
             
 
-            
-           
-            
-            
-          
-            <!-- with radio you may only select 1-->
-            
-            <br>
-
-            <fieldset>
-                <legend>Join Our Mailing List?</legend>
-            
-                <input type="radio" name="List" id="Yes">
-                <label for="Yes">Yes</label>
-            
+            <form class="custom-form">
+    
+                <label for="username"> username.</label>
                 <br>
-            
-                <input type="radio" name="List" id="No">
-                <label for="No">No</label>
-            
-            
-            
-            </fieldset>
+                <input type="text" name="username" id="username">
+             
+                <br>
+                <label for="e-mailaddress"> e-mailaddress. </label>
+                <br>
+                <input type="text" name="e-mailaddress" id="e-mailaddress">
+                <br>
+                <!-- setting the type to password, hides the password text in browser-->
+                <label for="password" > password. </label>
+                <br>
+                <input type="password" name="password" id="password">
+         
+                <br>
+                <label for="password" > confirm password. </label>
+                <br>
+                <input type="password" name="password" id="password">
 
-            <br>
-            
-            <button type="submit">Send Message</button>
-            <button type="reset">Cancel</button>
-               
+                <br> 
+                <label for="dateOfBirth"> date of birth. </label>
+                <br>
+                <input type="dateOfBirth" name="dateOfBirth" id="dateOfBirth">  
+         
+                 <br>
+                <label for="gender"> gender. </label>
+                <br>
+                <select name="gender" id="gender">
+                <option value="male"> male</option>
+                <option value="female"> female</option>
+                <option value="other"> other</option>
+                </select>
+             
+                <br>        
+                <br>
+                <br>
+                
+                <button type="submit"> SUBSCRIBE </button>
+                <button type="reset"> CANCEL</button>
+                
+              </form>
+             
+           
             
             </form>
             
             </body>
             </html>
         </main>
+
+        <footer class="footer ">
+            <p class="hover-text">
+                Designcabinet@gmail.com
+            <br>
+          
+            Co.Dublin, 
+            Ireland
+            V45NR52
+            <br>
+            +353(876281773)
+            </p>
+          
+          
+            <img src="assets/images/facebookwhite.png" alt="icon" class="image align-right">
+          
+          </footer>
+        
   
 
     
